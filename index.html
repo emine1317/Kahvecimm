@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Kahvecim</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="#home" class="active">Ana Sayfa</a>
+        <a href="#menu">Çok Satanlar</a>
+        <a href="#product">Ürünlerimiz</a>
+        <a href="#about">Hakkında</a>
+        <a href="#review">Yorumlar</a>
+        <a href="#contact">İletişim</a>
+      </nav>
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input type="text" class="search-input" id="search-box" placeholder="search here">
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fas-times"></i>
+          <img src="images/menu1.png" alt="menu">
+          <div class="content">
+            <h3>Ürün 01</h3>
+            <div class="price">65₺/</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fas-times"></i>
+          <img src="images/menu9.png" alt="menu">
+          <div class="content">
+            <h3>Ürün 02</h3>
+            <div class="price">40₺/</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fas-times"></i>
+          <img src="images/menu8.png" alt="menu">
+          <div class="content">
+            <h3>Ürün 03</h3>
+            <div class="price">55₺/</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fas-times"></i>
+          <img src="images/menu7.png" alt="menu">
+          <div class="content">
+            <h3>Ürün 04</h3>
+            <div class="price">50₺/</div>
+          </div>
+        </div>
+        <a href="#" class="btn">Siparişi Onayla</a>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>HIZLI VE SICAK TESLİMAT</h3>
+        <p>
+          Siparişleriniz motorlu kuryelerimiz ile elinize soğumadan hızlıca
+          ulaştırılır.
+        </p>
+        <a href="#product" class="btn">Sipariş Ver</a>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h1 class="heading">Çok <span>Satanlar</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu1.png" alt="menu"> 
+            <span class="menu-category">Kampanya</span>
+            <h3>Latte+Kurabiye</h3>
+            <div class="price">65₺ <span>70₺</span></div>   
+          </div>
+          <div class="box-button">
+            <a href="#"class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu2.png" alt="menu"> 
+            <span class="menu-category">Kampanya</span>
+            <h3>Latte+Cheesecake</h3>
+            <div class="price">80₺ <span>90₺</span></div>   
+          </div>
+          <div class="box-button">
+            <a href="#"class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu3.png" alt="menu"> 
+            <span class="menu-category">Kampanya</span>
+            <h3>Laktozsuz Kahve+Çiko Kek</h3>
+            <div class="price">65₺ <span>75₺</span></div>   
+          </div>
+          
+          <div class="box-button">
+            <a href="#"class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu7.png" alt="menu"> 
+            <span class="menu-category">Kampanya</span>
+            <h3>Frappuccino</h3>
+            <div class="price">50₺ <span>60₺</span></div>   
+          </div>
+          <div class="box-button">
+            <a href="#"class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="products" id="product">
+      <h1 class="heading">Ürünlerimiz</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <span class="title">cappuccino</span>
+            <a href="#" class="name">Cappuccino</a>
+          </div>
+          <div class="image">
+            <img src="images/menu5.png" alt="">
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">50₺</b>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <span class="title">Türk Kahvesi</span>
+            <a href="#" class="name">Türk Kahvesi</a>
+          </div>
+          <div class="image">
+            <img src="images/menu10.png" alt="">
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">45₺</b>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <span class="title">Macchiato</span>
+            <a href="#" class="name">Caramel Macchiato</a>
+          </div>
+          <div class="image">
+            <img src="images/menu8.png" alt="">
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">55₺</b>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <span class="title">Cheesecake</span>
+            <a href="#" class="name">Cheesecake</a>
+          </div>
+          <div class="image">
+            <img src="images/menu9.png" alt="">
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">40₺</b>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <h1 class="heading">Hakkında</h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/about.png" alt="about">
+        </div>
+        <div class="content">
+          <h3>Güzel Kahve yapmanın sırları nelerdir?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </p>
+          <a href="#" class="btn">Daha Fazlası</a>
+        </div>
+      </div>
+    </section>
+    <section class="review" id="review">
+      <h1 class="heading">Kullanıcı <span>Yorumları</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/quote.png" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <img src="images/avatar1.png" alt="avatar" class="user">
+          <h3>Barkın</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/quote.png" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <img src="images/avatar2.png" alt="avatar" class="user">
+          <h3>Anıl</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/quote.png" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <img src="images/avatar3.png" alt="avatar" class="user">
+          <h3>Figen</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h1 class="heading">Bize <span>Ulaşın</span></h1>
+      <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1770.405990598611!2d27.217530881534923!3d41.732254045484765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a75368e393326d%3A0xc374403bb0b789a1!2sKahve%20Tiryakisi!5e0!3m2!1str!2str!4v1686502073470!5m2!1str!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form>
+          <h3>İletişim</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="name">
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="name">
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="name">
+          </div>
+          <input type="submit" class="btn" value="contact now">
+        </form>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Search">
+        <button class="btn btn-primary">search</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
